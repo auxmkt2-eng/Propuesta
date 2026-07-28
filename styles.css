@@ -643,11 +643,33 @@ p, li, .cover-sub, .cta-button {
     padding: var(--sp-5);
   }
   .invest-row {
+    grid-template-columns: 38px 1fr;
+    align-items: start;
     gap: var(--sp-4);
-    padding: var(--sp-5);
+    padding: 20px;
+  }
+  .invest-body h3 {
+    font-size: 17px;
+  }
+  .invest-body p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .invest-price {
+    grid-column: 2;
+    margin-top: 2px;
+  }
+  .price-main {
+    font-size: 22px;
   }
   .invest-total {
-    padding: var(--sp-5);
+    padding: 18px 20px;
+  }
+  .invest-total-label {
+    font-size: 12px;
+  }
+  .invest-total-value {
+    font-size: 27px;
   }
   .deck-nav {
     width: calc(100% - 32px);
