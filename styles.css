@@ -639,8 +639,33 @@ p, li, .cover-sub, .cta-button {
   .pillar-card {
     padding: var(--sp-6);
   }
+  .slide[data-slide="2"] .challenge-grid {
+    gap: var(--sp-4);
+    margin-bottom: var(--sp-5);
+  }
+  .slide[data-slide="2"] .challenge-card h3 {
+    font-size: 18px;
+  }
+  .slide[data-slide="2"] .challenge-card p {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .slide[data-slide="2"] .stat-row {
+    gap: 12px;
+  }
   .stat-chip {
-    padding: var(--sp-5);
+    min-height: 96px;
+    justify-content: center;
+    padding: 18px 20px;
+    gap: 8px;
+  }
+  .stat-num {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .stat-label {
+    font-size: 13px;
+    line-height: 1.4;
   }
   .invest-row {
     grid-template-columns: 38px 1fr;
